@@ -30,7 +30,7 @@ body {
     min-width: 128px;
     max-width: 512px;
     aspect-ratio: 1/1;
-    background-image: url("../assets/logo.png");
+    background-image: url("assets/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
