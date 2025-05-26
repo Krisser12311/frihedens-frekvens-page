@@ -27,8 +27,8 @@ body {
 }
 
 .header-logo {
-    min-width: 128px;
-    max-width: 512px;
+    min-width: 200px;
+    max-width: 514px;
     aspect-ratio: 1/1;
     background-image: url("assets/logo-icon.png");
     background-size: cover;
@@ -84,7 +84,7 @@ body {
     background-color: var(--clr-la-blue);
     color: var(--clr-white);
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 0.9rem;
     width: 100%;
     position: fixed;
