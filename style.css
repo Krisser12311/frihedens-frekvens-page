@@ -26,8 +26,17 @@ body {
 
 }
 
+.podcast-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--clr-white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 .header-logo {
-    min-width: 170px;
+    min-width: 200px;
     max-width: 514px;
     aspect-ratio: 1/1;
     background-image: url("assets/logo-icon.png");
