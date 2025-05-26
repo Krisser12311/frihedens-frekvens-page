@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 20px 70px; /* Makes space for the footer */
+    padding: 30px 20px 60px; /* Makes space for the footer */
 }
 
 .main-container {
@@ -27,7 +27,7 @@ body {
 }
 
 .header-logo {
-    min-width: 200px;
+    min-width: 170px;
     max-width: 514px;
     aspect-ratio: 1/1;
     background-image: url("assets/logo-icon.png");
@@ -87,7 +87,6 @@ body {
     padding: 10px 0;
     font-size: 0.9rem;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    /* Fjern sticky */
+    position: static; /* eller bare slet denne linje helt */
 }
